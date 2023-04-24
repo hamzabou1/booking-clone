@@ -1,0 +1,592 @@
+.hotel {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    font-family:       BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding-bottom:20px ;
+    .hotel_container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        .hotel_infos_top{
+            width: 100%;
+            height: max-content;// a changer 
+            display: flex;
+            justify-content: space-between;
+            .infos_search {
+                width: 28%;
+                height: 100%;
+                .check_price{
+                    width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #ebf3ff;
+                    border-radius: 2px;
+              
+                    #icon {
+                        font-size: 16px;
+                        color:#003580;
+                        margin-right: 4px;
+                    }
+                    p {
+                        cursor: pointer;
+                        font-size: 12px;
+                        font-weight: 700;
+                    }
+                }
+                .content{
+                    width: 80%;
+                    height: 460px;
+                    background-color: #febb02;
+                    margin-left: auto;
+                    border-radius: 4px;
+                    margin-right: auto;
+                    margin-top: -11px;
+    
+                    .form{
+                        width: 87%;
+                        margin-left: auto;
+                        margin-right: auto;
+                        .items{
+                            width: 100%;
+                            height: 65px;
+                      
+                            label {
+                                font-size: 11.5px;
+                                color: #262626;
+                                font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif                            ;
+                            }
+                            .input_icon {
+                                    width: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    background-color: white;
+                                    height: 60%;
+                                    border-radius: 4px;
+                                    margin-top: 2px;
+                                    input {
+                                        outline-width: 0px;
+                                        border: 0px;
+                                        width: 80%;
+                                        height:95%;
+                                    }
+                                    .icon {
+                                        width: 13%;
+                                        height: 100%;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        #icon {
+                                            font-size: 23px;
+                                            color: #262626;
+                                        }
+                                        
+                                    }
+                                    p {
+                                        font-size: 13px;
+                                        margin-left: 5px;
+                                        margin-top: 0px;
+                                        font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    
+                                    }
+                                       #icon {
+                                            font-size: 23px;
+                                            color: #262626;
+                                            padding: 3px;
+                                        }
+                                    .date {
+                                        position: absolute;
+                                        
+                                    }
+                                  
+    
+                            }
+                            .input_icon1 {
+                                    width: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                  background-color: white;
+                                  height: 60%;
+                                  border-radius: 4px;
+                                  margin-top: 2px;
+                                  border: 2px solid blue;
+                                  input {
+                                    outline-width: 0px;
+                                    border: 0px;
+                                    width: 80%;
+                                }
+                                .icon {
+                                    width: 13%;
+                                    height: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    #icon {
+                                        font-size: 23px;
+                                        color: #262626;
+                                    }
+                                    
+                                }
+                                 p {
+                                     font-size: 14px;
+                                     margin-left: 10px;
+                                     margin-top: 0px;
+                                     font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                                 }
+                                  .date {
+                                        position: absolute;
+                                        top: 365px;
+                                    }
+                                    #icon {
+                                        font-size: 23px;
+                                        color: #262626;
+                                        padding: 2px;
+                                    }
+                                    .props{
+                                        width: 320px;
+                                        height: 240px;
+                                        background-color: rgb(255, 255, 255);
+                                        position: absolute;
+                                        margin-top: 287px;
+                                        border-radius: 5px;
+                                        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        .props_content {
+                                            width: 90%;
+                                            height: 80%;
+                                            .each-item{
+                                                width: 100%;
+                                                height: 50px;
+                                                display: flex;
+                                                align-items: center;
+                                                margin-bottom: 10px;
+                                                .handle{
+                                                    width: 150px;
+                                                    display: flex;
+                                                    align-items: center;
+                                                    border: 1px solid blue;
+                                                    padding: 5px;
+                                                    p {
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        margin-left: -2px;
+                                                    }
+                                                     #icon {
+                                                         padding:5px 7px;
+                                                         cursor: pointer;
+                                                         border-radius: 3px;
+                                                         font-size: 30px;
+                                                        color: #0071c2;
+    
+                                                     }
+                                                     #icon:hover {
+                                                         background-color: rgba(173,216, 230, 0.497);
+                                                     }
+                                                     #icon1 {
+                                                        padding:5px 7px;
+                                                        font-size: 30px;
+                                                        cursor: not-allowed;
+                                                        border-radius: 3px;
+                                                        color: grey;
+                                                     }
+                                                     p {
+                                                         cursor:context-menu;
+                                                     }
+    
+                                                }
+    
+    
+                                            }
+                                        }
+                                    }
+                            }
+    
+                        }
+                        .price {
+                            width: 100%;
+                            height: 60px;
+                            display: flex;
+                            justify-content: space-between;
+                            .left {
+                                width: 50%;
+                                height: 100%;
+                                input {
+                                    width: 82%;
+                                    height: 50%;
+                                    padding: 5px 7px;
+                                    outline-width: 0px;
+                                    border: 0px;
+                                    border-radius: 4px;
+                                }
+                                #input {
+                                    border: 2px solid blue;
+                                }
+                            }
+                        }
+                        .check {
+                            width: 100%;
+                            display: flex;
+                            height: 30px;
+                            align-items: center;
+                            justify-content: space-between;
+                            margin-top: 7px;
+                         
+                            .first {
+                                display: flex;
+                                align-items: center;
+                                p {
+                                    font-size: 12px;
+                                    font-weight: 400;
+                                    margin-top: 0px;
+                                    margin-left: 2px;
+                                    color: #333333;
+                                    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif                                ;
+                                }
+                                input {
+                                    width: 16px;
+                                    height: 16px;
+                                    margin-top: 0px;
+                                }
+                            }
+                            .seconde {
+                                display: flex;
+                                justify-content: flex-end;
+                                width: 10%;
+                                margin-top: 0px;
+                                font-size: 15px;
+                                
+                            }
+                        }
+                        .search_button{width: 100%;
+                            height: 45px;
+                            margin-top:25px;
+                            button {
+                                width: 100%;
+                                height: 100%;
+                                background-color: #0071c2;
+                                border-radius:3px ;
+                                border: none;
+                                color: white;
+                                letter-spacing: 1px;
+                                font-size: 15px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            button:hover {
+                                background-color:#0f588c ;
+                            }
+                        }
+                    }
+                    p {
+                        width: 90%;
+                        margin-left: auto;
+                        margin-right: auto;
+                        padding-top: 10px;
+                        font-weight: 500;
+                        font-size: 19px;
+                        color: #333333;
+    
+                    }
+                }
+            }
+            .infos_pictures {
+                width: 72%;
+                height: 100%;
+                height: 100%;
+                .infos_links {
+                    width: 100%;
+                    height: 40px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    p {
+                        width: 24.9%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #0071c2;
+                        background-color: #ebf3ff;
+                        font-size: 14px;
+                        font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+                        ;
+                        font-weight: 700;
+
+                    }
+              
+                }
+                      .pictures{
+                        width: 100%;
+                        height: 100%;
+                        border-top: 1.5px solid #ebf3ff;;
+                        margin-top: 2px;
+                        .title {
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            .title_left{
+                                width: 78%;
+                                height: 100%;
+                                .first {
+                                    width: 100%;
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                    display: flex;
+                                    align-items: center;
+                                    p {
+                                        margin-left: 10px;
+                                        margin-top: 15px;
+                                        margin-bottom: 0px;
+                                        font-size: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                                    }
+                                    #p1 {
+                                        font-size: 12px;
+                                        background-color: #aeaeae;
+                                        color: white;
+                                        border-radius: 5px;
+                                        padding: 2px 4.5px;
+                                    }
+                                    #p2 {
+                                        font-weight: 700;
+                                        color: #333333;
+                                        font-size: 25.5px;
+                                    }
+                                    #like {
+                                        font-size: 14px;
+                                        background-color: #febb02;
+                                        margin-left: 4px;
+                                        margin-top: 15px;
+                                        color: white;
+                                        padding: 4px;
+                                        border-radius: 3px;
+
+                                    }
+                                    .airport{
+                                        display: flex;
+                                        align-items: center;
+                                        margin-top: 12px;
+                                        margin-left: 15px;
+                                        border-radius: 10px 3px 3px 10px;
+                                        background-color: #ebf3ff;
+                                        cursor: help;
+                                        p {
+                                            margin: 0px;
+                                            font-size: 12px;
+                                            padding: 4.8px;
+                                            letter-spacing: 0.4px;
+                                        }
+                                        #air {
+                                            margin-right: 3px;
+                                            border-radius: 10px;
+                                            font-size: 10px;
+                                            background-color: #febb02;
+                                            padding: 6px;
+                                            border: 0.5px solid #003580;
+                                            background-color: white ;
+                                        }
+                                    }
+                                    #p3 {
+                                        font-size: 10px;
+                                        #icon {
+                                            background-color: #febb02;
+                                            margin-bottom: 0px;
+                                            margin-left: 3px;
+                                            border-radius: 2px 2px 3px 1px;
+                                            color: white;
+                                            margin-top: 12px;
+                                        }
+                                    }
+                                }
+                                .seconde {
+                                    width: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                 
+                                    p {
+                                        margin: 0px;
+                                        font-size: 14px;
+                                        font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                                        span {
+                                            color: #0071c2;
+                                            font-weight: 700;
+                                            font-size: 14x;
+                                        }   
+                                    }
+
+                                }
+                            }
+                            .title_right {
+                                width: 20%;
+                                height: 100%;
+                                margin-top: 15px;
+                            ;
+
+                                .top{
+                                    width: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-around;
+                                    button {
+                                        padding: 11px 14px ;
+                                        border: 0px;
+                                        background-color: #0071c2;
+                                        color: white;
+                                        border-radius: 3px;
+                                        cursor: pointer;
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+                                    }
+                                    #heart{
+                                        font-size: 18px;
+                                        color: #0071c2;
+                                          cursor: pointer;
+                                    }
+                                    #share {
+                                        cursor: pointer;
+                                        color: #0071c2;
+                                        font-size: 18px;
+                                    }
+                                }
+                                .bottom {
+                                    display: flex;
+                                    width: 100%;
+                                    justify-content: flex-end;
+                                    margin-left: -10px;
+                                    align-items: center;
+                                    margin-top: 13px;
+                                    #icon {
+                                        color: #003580;
+                                        margin-right: 5px;
+                                    }
+                                    p {
+                                        margin: 0px;
+                                        font-size: 12px;
+                                        font-weight:700;
+                                        font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+
+                                    }
+                                }
+                            }
+                        }
+                        .image-grid {
+                            --gap: 16px;
+                            --num-cols: 4;
+                            --row-height: 170px;
+                          
+                            box-sizing: border-box;
+                            padding: var(--gap);
+                          
+                            display: grid;
+                            grid-template-columns: repeat(var(--num-cols), 1fr);
+                            grid-auto-rows: var(--row-height);
+                            gap: var(--gap);
+                          }
+                          
+                          .image-grid > img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                          }
+                          
+                          .image-grid-col-2 {
+                            grid-column: span 2;
+                          }
+                          
+                          .image-grid-row-2 {
+                            grid-row: span 2;
+                          }
+                          
+                          /* Anything udner 1024px */
+                          @media screen and (max-width: 1024px) {
+                            .image-grid {
+                              --num-cols: 2;
+                              --row-height: 200px;
+                            }
+                          }
+                          
+                          
+                     
+                          
+                        
+                    }
+            }
+        }
+        .hotel_infos_bottom {
+            height: 100vh;
+            width: 100%;
+        }
+    }
+    .slider {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.562);
+        
+        
+        img {
+            width: 80%;
+            height: 80%;
+            object-fit: contain;
+        }
+        #cancel {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            font-size: 38px;
+            color: rgb(232, 232, 232);
+            cursor: pointer;
+
+
+        }
+        #left {
+            font-size: 24px;
+            border-radius: 50%;
+            padding: 10px;
+            background-color: white;
+            cursor: pointer;
+        }
+        #right {
+            font-size: 24px;
+            border-radius: 50%;
+            padding: 10px;
+            background-color: white;
+            cursor: pointer;
+        }
+        #left:hover {
+            background-color: rgb(232, 232, 232);
+        }
+        #right:hover {
+            background-color: rgb(232, 232, 232);
+        }
+    }
+    .lolp{
+        width: 100%;
+        height: 100%;
+    }
+    .pm {
+        width: 100%;
+        height: 100%;
+    }
+}

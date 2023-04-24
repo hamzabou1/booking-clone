@@ -1,0 +1,614 @@
+.reserve {
+    margin-top: 100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif    ;
+    border-top: 0.5px solid rgba(128, 128, 128, 0.322);
+
+    .title {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p {
+            font-size: 21px;
+            font-weight: 600;
+        }
+        .match{
+            display: flex;
+            align-items: center;
+            p {
+                font-size: 13px;
+                font-weight: 600;
+                margin-left: 10px;
+            }
+            #icon {
+                color: #003580;
+            }
+        }
+    }
+    .header_titles {
+        width: 100%;
+        height: 60px;
+        background-color: #4c76b2;
+        display: flex;
+        align-items: center;
+        font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        .display1 {
+            border-right: 2px solid #84b7ff;
+            width: 35%;
+            height: 100%;
+            p{
+                font-size: 14px;
+                font-weight: 600;
+                color: white;
+                margin-left: 5px;
+                margin-top: 10px;
+            }
+        }
+        .display2 {
+            width: 10%;
+            height: 100%;
+            border-right: 2px solid #84b7ff;
+
+            p{
+                font-size: 14px;
+                font-weight: 600;
+                color: white;
+                margin-left: 5px;
+                margin-top: 10px;
+                
+            }
+
+        }
+        .display3 {
+            width: 25%;
+            height: 100%;
+            border-right: 2px solid #84b7ff;
+
+
+            p{
+                font-size: 14px;
+                font-weight: 600;
+                color: white;
+                margin-left: 5px;
+                margin-top: 10px;
+            }
+        }
+        .display4{
+            width: 30%;
+            height: 100%;
+            p{
+                font-size: 14px;
+                font-weight: 600;
+                color: white;
+                margin-left: 5px;
+                margin-top: 10px;
+            }
+
+        }
+        
+
+    }
+    .infos{
+        width: 100%;
+        height: 180px;
+        display: flex;
+        .display1 {
+           
+            width: 35%;
+            height: 100%;
+            border-right: 1.5px solid #84b7ff;
+            border-bottom: 3px solid #84b7ff;
+            .range {
+                margin-left: 10px;
+                margin-top: 7px;
+            a {
+                font-weight: 600;
+                font-size: 16px;
+                color: #0071c2;
+
+            }
+            p {
+                font-size: 12.5px;
+                margin: 0px;
+            
+            }
+            #p2 {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                height: max-content;
+                align-items: center;
+                color: #262626
+                ;
+                font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+                ;
+            }
+            .entertainment{width: 80%;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                text-align: left;
+                margin-top: 25px;
+
+                .items {
+                    display: flex;
+                    align-items: center;
+                    margin-right: 12px;
+                    margin-bottom: 7px;
+                    
+                #icon {
+                    font-size: 13px;
+                }
+                span {
+                    font-size: 12px;
+                    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+                    ;
+                    margin-left: 4px;
+                }
+            }
+        }
+
+            #p1  {
+                font-size: 16px;
+                margin-bottom: 15px;
+                color: #0071c2;
+                font-weight: 700;
+            }
+            #p3 {
+                margin-top: 5px;
+                color: #a30000;
+                display: flex;
+                align-items: center;
+                font-weight: 600;
+                margin-bottom: 10px;
+                #icon {
+                    font-size: 15px;
+                    color: red;
+                    margin-right: 3px;
+                }
+            }
+        }
+        }
+        .display2{
+            width: 10%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            border-right: 1px solid #84b7ff;
+            border-bottom: 3px solid #84b7ff;
+            justify-content: center;
+            #icon{
+                margin-top: 10px;
+            }
+
+        }
+        .display3 {
+            width: 25%;
+            height: 100%;
+            border-right: 1.5px solid #84b7ff;
+            border-bottom: 3px solid #84b7ff;
+            .range {
+                width: 95%;
+                margin-left: auto;
+                margin-top: 10px;
+                margin-right: auto;
+            p {
+                margin: 0px;
+                font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                margin-bottom: 7px;
+            }
+            #p1 {
+                font-weight: 700;
+                color: #333333
+                ;
+                font-size: 16px;
+            }
+            #p2 {
+                font-size: 12px;
+                color: #6b6b6b
+                ;
+                font-weight: 400;
+            }
+            #p3 { 
+                  font-size: 12px;
+                    font-weight: 400;
+                    border-radius: 2px  ;
+                    background-color: #008009
+                    ;
+                    width: max-content;
+                    padding: 3px;
+                    color: white;
+
+            }
+        }
+
+        }
+
+        .display4 {
+            width: 30%;
+            height: 100%;
+            border-right: 1.5px solid #84b7ff;
+            border-bottom: 3px solid #84b7ff;
+            .range {
+                width: 95%;
+                margin-left: auto;
+                margin-top: 10px;
+                margin-right: auto;
+                .items {
+                    display: flex;
+                    align-items: center;
+                    color: #008009;
+                    p {
+                        font-size: 12px;
+                        margin: 0px;
+                        margin-left: 10px;
+                        margin-bottom: 7px;
+
+                    }
+                    #p2 {
+                        color: #262626 ;
+                        font-weight: 700;
+                    }
+                    #icon {
+                        color: #262626;
+                    }
+                    #p3 {
+                        color: #262626;
+                        span {
+                            color: #0071c2;
+                            font-weight: 700;
+                            font-size: 13px;
+                        }
+                    }
+                    #icon1 {
+                        color: #0071c2;
+                    }
+                    #p4 {
+                        color: #a30000;
+                    }
+                    #icon3 {
+                        color: #a30000;
+
+                    }
+                    #p6 {
+                        font-weight: 500;
+                        margin-right: 15px;
+                        margin-top: 5px;
+                        background-color: #0071c2;
+                        padding: 4px;
+                        color: white;
+                        font-weight: 700;
+                        display: flex;
+                        align-items: center;
+                        #icon {
+                            font-size: 20px;
+                            color: white;
+                            font-weight: 700;
+                        }
+
+                    }
+                    #span{
+                        padding: 5px;
+                        color: white;
+                        font-size: 13px;
+                        border-radius: 3px;
+                        cursor: pointer;
+                        font-weight: 600;
+                    }
+                    #span:hover {
+                        background-color: #003580;
+                    }
+               
+                    .rooms {
+                        width: 150px;
+                        height: 150px;
+                        position: sticky;
+                        margin-left: 30px;
+                        background-color: #ffffff;
+                        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                        overflow: auto;
+                        margin-top: -90px;
+                        justify-content: center;
+                        .display {
+                            display: flex;
+                            align-items: center;
+                          justify-content: center;
+                            width: 95%;
+                            margin-left: auto;
+                            margin-right: auto;
+                            p {
+                                font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                                margin: 5px 0px;
+                                font-size: 12px;
+                                
+                            }
+                        }
+                        #button{
+                            width: 100%;
+                            border: 0px;
+                            padding: 7px 0px;
+                            margin-bottom: 10px;
+                            color: white;
+                            cursor: pointer;
+                            background-color: #0071c2;
+                        }
+                        #button:hover {
+                            background-color: #003580;
+                        }
+                    }
+                }
+             
+            }
+            
+        }
+    }
+    
+    .individualRoom {
+
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.162);
+        
+        .container{
+            width: 75%;
+            height: 80%;
+            background-color: #f7f3f3;
+            .close {
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                    #icon{
+                        font-size: 25px;
+                        font-weight: 700;
+                        border-radius:60px ;
+                        background-color: #0071c2;
+                        margin-top: 10px;
+                        margin-right: 10px;
+                        padding: 4px;
+                        cursor: pointer;
+                        color: white;
+                        transition:1s ease ;
+                    }
+                    #icon:hover {
+                        background-color: #003580;
+                        color: rgb(213, 213, 213);
+                    }
+        }
+        .content {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            .content_left {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .image_display {
+                    height: 74%;
+                    width: 95%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img {
+                        width: 80%;
+                        object-fit: contain;
+                        height: 95%;
+                    }
+                    #icon {
+                        font-size: 25px;
+                        cursor: pointer;
+                        color: #4c76b2;
+                        border-radius: 50%;
+                        padding: 3px;
+                        background-color: white;
+                        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+                    }
+                }
+                .images{
+                    height: 23%;
+                    width: 95%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: flex;
+                    justify-content: space-between;
+                    img {
+                        width: 60px;
+                        height: 60px;
+                        object-fit: cover;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .content_right {
+                height: max-content;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+               
+                .items{
+                    height: max-content;
+                    width: 70%;
+                    margin-top: 10px;
+
+                    p {
+                        width: 90%;
+                        margin-left: auto;
+                        margin-right: auto;
+                        font-weight: 700;
+                        color: rgba(0, 0, 0, 0.851);
+                        font-size: 17px;
+                        margin: 0px;
+                        margin-bottom: 10px;
+                        span {
+                            font-size: 13px ;
+                            font-weight: normal;
+                        }
+                    }
+                 
+
+                    .display {
+                        margin-left: auto;
+                        margin-right: auto;
+                        #span {
+                            margin-right: 10px;
+                            font-size: 12px;
+                            color: black;
+                        }
+                        #span1 {
+                            font-size: 13px;
+                            font-weight: 400;
+                          
+                        }
+                     
+                    }
+                    .display1 {
+                        width: 110%;
+                        display: flex;
+                        flex-wrap: wrap;
+                    .item {
+                        display: flex;
+                        align-items: center;
+                        margin-right: 8px;
+                        margin-bottom: 5px;
+                        font-size: 13px;
+                        span {
+                            margin-left: 5px;
+                            font-size: 13px;
+                        }
+                    }
+                   
+                }
+            }
+            }
+        }
+            
+        }
+
+
+    }
+  
+    .validate {
+
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.141);
+        z-index: 999;
+        #icon1 {
+            color: #003580;
+            font-size: 22px;
+            font-weight: 900;
+            position: absolute;
+            top: 100px;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 5px;
+            background-color: rgba(255, 255, 255, 0.755);
+            transition: 0.5s ease;
+        }
+        #icon1:hover {
+            background-color: rgba(255, 255, 255, 0.479);
+            color: blue;
+            font-weight: 900;
+        }
+        .container{
+            width: 50%;
+            height: 50%;
+            background-color: white;
+            .top {
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                height: 70px;
+                background-color: #003580;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                p {
+                    font-size: 26px;
+                    color: white;
+                    margin-left: 20px;
+                    margin-top: 10px;
+                    font-weight: 700;
+                    span {
+                        color: #0588e6;
+                    }
+                }
+                .bop {
+                    margin-right: 10px;
+                    p {
+                        font-size: 14px;
+                        color: white;
+                        font-weight: 400;
+                        margin-bottom: 10px;
+                        margin-top: 5px;
+                        span {
+font-weight: 600;
+color: white;
+
+                        }
+                    }
+                }
+            }
+            .bottom {
+                width: 100%;
+                height:max-content;
+                p {
+                    margin: 0px;
+                    margin-left: 15px;
+                    font-weight: 700;
+                    margin-top: 10px;
+                }
+                #p2 {
+                    font-size: 18px;
+                    font-weight: 900;
+                }
+
+                .display {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    margin-top: 10px;
+
+                    #icon {
+                        color: green;
+                        margin-left: 10px;
+                        font-weight: 900;
+                        font-size: 16px;
+                        margin-right: 10px;
+                    }
+                    p {
+                        margin: 0px;
+                        font-weight: normal;
+                        span {
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

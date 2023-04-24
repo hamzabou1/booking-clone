@@ -1,0 +1,167 @@
+
+    h6{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 23px;
+        font-weight: 700;
+        margin-bottom: 0px;
+        font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        color: #262626;
+    }
+    
+    .list_type1 {
+        width: 100%;
+        height: 370px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        cursor: pointer;
+        .button {
+            width: 50px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            #button {
+                background-color: rgba(233, 214, 214, 0.516);
+                border-radius: 40px;
+                padding: 13px;
+                cursor: pointer;
+                color: black;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;        }
+        }
+        .cover1 {
+            position: relative;
+            width: 90%;
+            height: 100%;
+            .icon {
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 40px;
+                animation: reload 0.1s infinite;
+                color: #0071c2 ;
+            }
+            .scroll-images1 {
+                width: 93%;
+                height: 100%;
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                overflow: auto;
+                position: relative;
+                scroll-behavior: smooth;
+                margin-left: auto;
+                margin-right: auto;
+                .child1 {
+                    min-width: 250px; 
+                    height: 100%;
+                    margin-left: 15px;
+                    padding-bottom: 15px;
+                    overflow: hidden;
+                    img {
+                        width: 100%;
+                        height: 230px;
+                        object-fit: cover;
+                        cursor: pointer;
+                    }
+                    .items11 {
+                        width: 100%;
+                        height: 25%;
+                        margin-left: auto;
+                        margin-right: auto;
+                        display: flex;
+                        justify-content: flex-start;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        padding: 5px 0px ;
+                        p {
+                            margin-bottom: 0px;
+                            margin-top: 0px;
+                        }
+                        #p4 {
+                            color: #262626;
+                            font-size: 13.5px;
+                            letter-spacing: 0.5px;
+                        }
+                        #p5 {
+                            color: #6b6b6b;
+                            font-size: 12.5px;
+                            letter-spacing: 0.5px;
+                        }
+                        #p11 {
+                            font-size: 14px;
+                            font-weight: 600;
+                            margin-top: 0px;
+                            margin-bottom: 0px;
+                            
+                        }
+                        #p22 {
+                            font-size: 13px;
+                            font-weight: 400;
+                            color: grey;
+                            margin-bottom: 0px;
+                            margin-top: 0px;
+
+                        }
+                           #p23 {
+                            font-size: 13px;
+                            font-weight: 400;
+                            color: #262626;
+                            margin-top: 6px;
+                            font-weight: 500;
+                            letter-spacing: 0.5px;
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            span {
+                                background-color: #003580;
+                                color: #ffff;
+                                font-size: 14px;
+                                padding: 4px;
+                                margin-right: 4px;
+                                border-radius: 4Px 4px 4px 1px;
+                                font-weight: 600;
+                            }
+                            #span {
+                                color: grey;
+                                font-size: 11px;
+                                margin-left: 10px;
+                                font-weight: 200;
+                            }
+
+                            
+                        }
+                  
+                    }
+                }
+                .child1::-webkit-scrollbar {
+                    -webkit-appearance: none;
+                }
+            }
+            .scroll-images1::-webkit-scrollbar {
+                -webkit-appearance: none;
+            }
+        }
+    
+    
+    }
+    @keyframes reload {
+
+        0%{
+     
+             transform: rotate(0deg);
+        }
+        50% {
+         transform: rotate(180deg);
+        }
+     
+        100% {
+         transform: rotate(360deg);
+     
+        }
+     
+         
+     }

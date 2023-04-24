@@ -1,0 +1,295 @@
+.search_items{
+
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif    ;
+    padding-bottom: 15px;
+    .search_items_container{
+        width: 90%;
+        height: 100%;
+        display: flex;
+
+        .search_compo{
+            width: 25%;
+            height: 100%;
+            .content{
+                width: 90%;
+                height: 460px;
+                background-color: #febb02;
+                margin-left: auto;
+                border-radius: 4px;
+                margin-right: auto;
+
+                .form{
+                    width: 87%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    .items{
+                        width: 100%;
+                        height: 65px;
+                  
+                        label {
+                            font-size: 11.5px;
+                            color: #262626;
+                            font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif                            ;
+                        }
+                        .input_icon {
+                                width: 100%;
+                                display: flex;
+                                align-items: center;
+                              background-color: white;
+                              height: 60%;
+                              border-radius: 4px;
+                              margin-top: 2px;
+
+                                input {
+                                    outline-width: 0px;
+                                    border: 0px;
+                                    width: 80%;
+                                    height: 95%;
+                                }
+                                .icon {
+                                    width: 13%;
+                                    height: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    #icon {
+                                        font-size: 23px;
+                                        color: #262626;
+                                    }
+                                    
+                                }
+                                p {
+                                    font-size: 13px;
+                                    margin-left: 5px;
+                                    margin-top: 0px;
+                                    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+                                }
+                                   #icon {
+                                        font-size: 23px;
+                                        color: #262626;
+                                        padding: 3px;
+                                    }
+                                .date {
+                                    position: absolute;
+                                    
+                                }
+                              
+
+                        }
+                        .input_icon1 {
+                                width: 100%;
+                                display: flex;
+                                align-items: center;
+                              background-color: white;
+                              height: 60%;
+                              border-radius: 4px;
+                              margin-top: 2px;
+                              border: 2px solid blue;
+                              input {
+                                outline-width: 0px;
+                                border: 0px;
+                                width: 80%;
+                                height: 95%;
+                            }
+                            .icon {
+                                width: 13%;
+                                height: 100%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                #icon {
+                                    font-size: 23px;
+                                    color: #262626;
+                                }
+                                
+                            }
+                             p {
+                                 font-size: 14px;
+                                 margin-left: 10px;
+                                 margin-top: 0px;
+                                 font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                             }
+                              .date {
+                                    position: absolute;
+                                    top: 365px;
+                                }
+                                #icon {
+                                    font-size: 23px;
+                                    color: #262626;
+                                    padding: 2px;
+                                }
+                                .props{
+                                    width: 320px;
+                                    height: 240px;
+                                    background-color: rgb(255, 255, 255);
+                                    position: absolute;
+                                    margin-top: 287px;
+                                    border-radius: 5px;
+                                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    .props_content {
+                                        width: 90%;
+                                        height: 80%;
+                                        .each-item{
+                                            width: 100%;
+                                            height: 50px;
+                                            display: flex;
+                                            align-items: center;
+                                            margin-bottom: 10px;
+                                            .handle{
+                                                width: 150px;
+                                                display: flex;
+                                                align-items: center;
+                                                border: 1px solid blue;
+                                                padding: 5px;
+                                                p {
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    margin-left: -2px;
+                                                }
+                                                 #icon {
+                                                     padding:5px 7px;
+                                                     cursor: pointer;
+                                                     border-radius: 3px;
+                                                     font-size: 30px;
+                                                    color: #0071c2;
+
+                                                 }
+                                                 #icon:hover {
+                                                     background-color: rgba(173,216, 230, 0.497);
+                                                 }
+                                                 #icon1 {
+                                                    padding:5px 7px;
+                                                    font-size: 30px;
+                                                    cursor: not-allowed;
+                                                    border-radius: 3px;
+                                                    color: grey;
+                                                 }
+                                                 p {
+                                                     cursor:context-menu;
+                                                 }
+
+                                            }
+
+
+                                        }
+                                    }
+                                }
+                        }
+
+                    }
+                    .price {
+                        width: 100%;
+                        height: 60px;
+                        display: flex;
+                        justify-content: space-between;
+                        .left {
+                            width: 50%;
+                            height: 100%;
+                            input {
+                                width: 82%;
+                                height: 50%;
+                                padding: 5px 7px;
+                                outline-width: 0px;
+                                border: 0px;
+                                border-radius: 4px;
+                            }
+                            #input {
+                                border: 2px solid blue;
+                            }
+                        }
+                    }
+                    .check {
+                        width: 100%;
+                        display: flex;
+                        height: 30px;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-top: 7px;
+                     
+                        .first {
+                            display: flex;
+                            align-items: center;
+                            p {
+                                font-size: 12px;
+                                font-weight: 400;
+                                margin-top: 0px;
+                                margin-left: 2px;
+                                color: #333333;
+                                font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif                                ;
+                            }
+                            input {
+                                width: 16px;
+                                height: 16px;
+                                margin-top: 0px;
+                            }
+                        }
+                        .seconde {
+                            display: flex;
+                            justify-content: flex-end;
+                            width: 10%;
+                            margin-top: 0px;
+                            font-size: 15px;
+                        }
+                    }
+                    .search_button{width: 100%;
+                        height: 45px;
+                        margin-top:25px;
+                        button {
+                            width: 100%;
+                            height: 100%;
+                            background-color: #0071c2;
+                            border-radius:3px ;
+                            border: none;
+                            color: white;
+                            letter-spacing: 1px;
+                            font-size: 15px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        button:hover {
+                            background-color:#0f588c ;
+                        }
+                    }
+                }
+                p {
+                    width: 90%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding-top: 10px;
+                    font-weight: 500;
+                    font-size: 19px;
+                    color: #333333;
+
+                }
+
+            }
+        }
+        .search_results {
+            width: 75%;
+            height:100%;
+          
+        }
+    }
+
+}
+@media screen and (max-width:540px) {
+    
+    .search_items .search_items_container {
+        flex-direction: column;
+        .search_compo {
+            width: 100%;
+        }
+        .search_results {
+            width: 100%;
+        }
+    }
+}

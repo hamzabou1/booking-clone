@@ -1,0 +1,122 @@
+.mail {
+    width: 100%;
+    height: 300px;
+    background-color: #00224f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    .mail_container {
+        width: 90%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .container_top {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 0px;
+            p {
+                margin-bottom: 0px;
+                color: white;
+                letter-spacing: 1px;
+                font-weight: 200;
+               margin-top: 0px;
+
+            } 
+            #p1 {
+                font-size: 24px;
+                color: white;
+                
+             
+            }
+            #p2 {
+                color: #bdbdbd ;
+                margin-top: 6px;
+                font-size: 15px;
+                font-weight: 400;
+                letter-spacing: 0.5px;
+                
+            }
+          
+        }
+           .container_bottom {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .formulaire{
+                width: 60%;
+                height: 55px;
+                #form {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    input {
+                        width: 68%;
+                        height: 90%;
+                        padding-left: 10px;
+                     
+                    }
+                    input::placeholder {
+                        font-size: 17px;
+                        font-weight: 100;
+                    }
+                    button {
+                        width: 28%;
+                        height: 100%;
+                        background-color: #0071c2;
+                        color: white;
+                        font-size: 20px;
+                        font-weight: 100;
+                        border: 0px;
+                        border-radius: 4px;
+                        cursor: pointer;
+                    }
+                    
+                }
+                .verify {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    p {
+                        color: white;
+                        font-size: 13.5px;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+@media screen  and (max-width:540px) {
+
+    .mail .mail_container .container_top{
+        width: 100%;
+        p {
+            text-align: center;
+        }
+    }
+    .mail .mail_container .container_bottom {
+        width: 100%;
+        .formulaire {
+            width: 100%;
+            #form button {
+                font-size: 16px;
+            }
+        }
+    }
+    
+}
